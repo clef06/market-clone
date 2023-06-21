@@ -15,6 +15,15 @@ footer {
 .footer-icons__img {
   width: 30px;
 }
+.footer-icons:hover .footer-icons__img {
+  animation: 100s icons-move infinite;
+}
+
+@keyframes icons-move {
+  0% {
+    transform: translateY(-10px);
+  }
+}
 
 .footer-icons {
   display: flex;
